@@ -2,7 +2,7 @@ import sys
 import os
 import streamlit as st
 
-# --- Fix import path for backend ---
+# --- Import path for backend ---
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from backend.game_logic import create_board, check_winner, is_draw, ai_move
 
@@ -22,8 +22,8 @@ st.markdown(
         height: 110px;
         font-size: 3rem;
         font-weight: bold;
-        border: 3px solid black;     /* Black borders for visibility */
-        background-color: white;     /* White cell background */
+        border: 3px solid black;
+        background-color: white;
         color: black;
         text-align: center;
         vertical-align: middle;
@@ -52,7 +52,7 @@ st.markdown(
 )
 
 # --- Title ---
-st.title("🎮 Tic Tac Toe — Play vs Computer")
+st.title("🎮 Tic Tac Toe — Player vs Computer")
 
 # --- Initialize game state ---
 if "board" not in st.session_state:
@@ -68,15 +68,15 @@ board = st.session_state.board
 
 # --- Step 1: Choose X or O ---
 if not st.session_state.user_symbol:
-    st.subheader("Choose your sign:")
+    st.subheader("Choose your symbol:")
     col1, col2 = st.columns(2)
     with col1:
-        if st.button("❌ (X)", use_container_width=True):
+        if st.button("❌", use_container_width=True):
             st.session_state.user_symbol = "X"
             st.session_state.ai_symbol = "O"
             st.rerun()
     with col2:
-        if st.button("⭕ (O)", use_container_width=True):
+        if st.button("⭕", use_container_width=True):
             st.session_state.user_symbol = "O"
             st.session_state.ai_symbol = "X"
             st.rerun()
