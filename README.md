@@ -1,4 +1,4 @@
-# 🎮 TicTacToe — Player vs Computer (Streamlit Web App)
+# 🎮 TicTacToe — Player vs AI (Streamlit Web App)
 
 A modern, browser-based TicTacToe game built using **Python + Streamlit**.  
 Play directly in your browser against an AI opponent — no installations required!
@@ -18,9 +18,10 @@ Play directly in your browser against an AI opponent — no installations requir
 
 ## 🖼️ Preview
 [Tic Tac Toe Screenshot]
-![alt text](tictactoeresult.png) 
-![alt text](tictactoehome.png) 
-![alt text](tictactoegame.png) 
+<img width="1920" height="905" alt="tictactoegame" src="https://github.com/user-attachments/assets/e4130c39-f06b-4672-9ba6-c710ae45910a" />
+<img width="1917" height="913" alt="tictactoehome" src="https://github.com/user-attachments/assets/72687ee9-43d6-4500-9315-dab5eebf6f8f" />
+<img width="1920" height="919" alt="tictactoeresult" src="https://github.com/user-attachments/assets/898ec99c-f561-4b0a-ade3-d620172d1832" />
+
 ---
 
 ## 🗂️ Folder Structure
@@ -31,7 +32,7 @@ TicTacToe/
 │ ├── game_logic.py # Game rules & AI logic
 │
 ├── frontend/
-│ ├── streamlit_app.py # Streamlit UI for the game
+│ ├── streamlit_app.py # Streamlit UI
 │
 └── requirements.txt # Python dependencies
 
@@ -40,20 +41,9 @@ TicTacToe/
 ---
 
 ## ⚙️ Installation (Run Locally)
-
+```
 1️⃣ **Clone the repository**
-```bash
-git clone https://github.com/aanalpatil24/TicTacToe.git
-cd TicTacToe
-
-
----
-yaml
-
-## ⚙️ Installation (Run Locally)
-
-1️⃣ **Clone the repository**
-```bash
+bash
 git clone https://github.com/aanalpatil24/TicTacToe.git
 cd TicTacToe
 
@@ -78,48 +68,12 @@ streamlit run streamlit_app.py
 👉 http://localhost:8501
 
 
-🌍 Deploy Globally (Free)
-1️⃣ Push your code to GitHub
-2️⃣ Go to Streamlit Cloud
-3️⃣ Click “New App”
-4️⃣ Choose:
+Tech Stack:-
 
-Repository: aanalpatil24/TicTacToe
-
-Branch: main
-
-File path: frontend/streamlit_app.py
-5️⃣ Click Deploy 🚀
-
-Your app will be live at:
-
-arduino
-Copy code
-https://aanalpatil24-tictactoe.streamlit.app
-🧠 Tech Stack
-Language: Python 3
-
+Language: Python
 Frontend: Streamlit
-
 Logic Engine: Custom game functions (no external AI libraries)
+```
 
-👩‍💻 Author
-Aanal Patil
-🎓 Built with ❤️ using Python and Streamlit
-📧 Contact: aanalpatil24@gmail.com
-
-🪪 License
-This project is licensed under the MIT License — free to use and modify.
-
-yaml
-Copy code
-
----
-
-### 🔧 Optional Next Steps
-If you’d like, I can include:
-- A **preview screenshot link** (for the GitHub banner)
-- A **Deploy to Streamlit** badge like:
-
-```markdown
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aanalpatil24-tictactoe.streamlit.app)
+## Author
+## Anal Patil
