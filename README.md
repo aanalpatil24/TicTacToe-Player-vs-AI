@@ -18,9 +18,10 @@ Play directly in your browser against an AI opponent — no installations requir
 
 ## 🖼️ Preview
 [Tic Tac Toe Screenshot]
-<img width="1920" height="905" alt="tictactoegame" src="https://github.com/user-attachments/assets/e4130c39-f06b-4672-9ba6-c710ae45910a" />
-<img width="1917" height="913" alt="tictactoehome" src="https://github.com/user-attachments/assets/72687ee9-43d6-4500-9315-dab5eebf6f8f" />
-<img width="1920" height="919" alt="tictactoeresult" src="https://github.com/user-attachments/assets/898ec99c-f561-4b0a-ade3-d620172d1832" />
+<img width="1920" height="1080" alt="tictactoehome" src="https://github.com/user-attachments/assets/b2908422-f292-4b55-9b9f-3571e7b30cdf" />
+<img width="1920" height="1080" alt="tictactoegame" src="https://github.com/user-attachments/assets/fde0d6e1-7e69-44ce-b2d9-b8b23b5b96cd" />
+<img width="1920" height="1080" alt="tictactoeresult" src="https://github.com/user-attachments/assets/108d8bd9-05f5-4a86-afab-36168171371a" />
+
 
 ---
 
@@ -77,3 +78,4 @@ Logic Engine: Custom game functions (no external AI libraries)
 
 ## Author
 ## Anal Patil
+
