@@ -52,7 +52,7 @@ st.markdown(
 )
 
 # --- Title ---
-st.title("🎮 Tic Tac Toe — Player vs Computer")
+st.title("🎮 Tic Tac Toe — Player vs AI")
 
 # --- Initialize game state ---
 if "board" not in st.session_state:
